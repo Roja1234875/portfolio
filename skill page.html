@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        body{
+             background-image: url("back.jpg");
+             background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height:250vh;
+            width:30%;
+        }
+        .team1{
+            margin-top: 150px;          
+        }
+        .top1{
+            position: relative;
+            left:600px;
+            font-size: 70px;
+            text-decoration:underline ;
+        }
+        .top2{
+            font-size: 40px;
+            position: relative;
+            top:100px;
+            left:550px;
+        }
+        .img1{
+            width:600px;
+            position: relative;
+            left:450px;
+            border-radius: 60px;
+        }
+        .img2{
+             width:600px;
+              position: relative;
+              left:450px;
+              border-radius: 40px;
+        }
+        .img3{
+             width:600px;
+              position: relative;
+              left:450px;
+              top:-5px;
+              border-radius: 38px;
+        }
+        .img4{
+             width:600px;
+              position: relative;
+              left:450px;
+              top:-20px;
+              border-radius: 70px;
+        }
+        .para1{
+           position: relative;
+           left:550px;
+           top:-130px;
+           font-size: 45px;  
+           color:rgb(66, 63, 63)
+        }
+        .a1{border: 2px solid black;
+            width:200px;
+            height:230px;
+            padding:30px;
+            margin:25px;
+            font-size: larger;
+           line-height:25px;
+           position: relative;
+           left:1100px;
+           top:-230px;
+           background-color: aqua;
+           box-shadow: 10px 5px 20px ;
+           border-bottom-left-radius: 30px;
+           border-top-right-radius: 30px;
+           display: none; 
+            }
+       .container:hover .a1{
+            display:block;
+            }
+        .para2{
+           position: relative;
+           left:575px;
+           top:-115px;
+           font-size: 45px; 
+            color:rgb(66, 63, 63)  
+        }
+        .a2{
+            border: 2px solid black;
+            width:200px;
+            height:120px;
+            padding:30px;
+            margin:35px;
+            font-size: larger;
+           line-height:25px;
+           position: relative;
+           left:1100px;
+           top:-230px;
+           background-color: aqua;
+           box-shadow: 10px 5px 20px ;
+           border-bottom-left-radius: 30px;
+           border-top-right-radius: 30px;
+           display: none;
+        }
+        .container2:hover .a2{
+            display:block;
+        }
+        .a21{
+             border: 2px solid black;
+            width:500px;
+            height:330px;
+            padding:30px;
+            margin:35px;
+            font-size: larger;
+           line-height:30px;
+           position: relative;
+           left:900px;
+           top:-230px;
+           background-color: lightgreen;
+           box-shadow: 10px 5px 20px ;
+           border-bottom-left-radius: 40px;
+           border-top-right-radius: 40px;
+           display: none;
+        }
+        .container2:hover .a21{
+            display: block;
+        }
+
+        .para3{
+            position: relative;
+            left:690px;
+            top:-120px;
+            font-size: 45px;
+             color:rgb(66, 63, 63) 
+        }
+        .a3{
+            border: 2px solid black;
+            width:200px;
+            height:120px;
+            padding:40px;
+            margin:40px;
+            font-size: larger;
+           line-height:25px;
+           position: relative;
+           left:1100px;
+           top:-230px;
+           background-color: aqua;
+           box-shadow: 10px 5px 20px ;
+           border-bottom-left-radius: 30px;
+           border-top-right-radius: 30px;
+           display: none;
+        }
+        .container3:hover .a3{
+            display: block;
+        }
+        .para4{
+            position: relative;
+            left:670px;
+            top:-150px;
+            font-size: 45px;
+            color:rgb(66, 63, 63) 
+        }
+        .a4{
+            border: 2px solid black;
+            width:200px;
+            height:180px;
+            padding:30px;
+            margin:25px;
+            font-size: larger;
+           line-height:25px;
+           position: relative;
+           left:1100px;
+           top:-230px;
+           background-color: aqua;
+           box-shadow: 10px 5px 20px ;
+           border-bottom-left-radius: 30px;
+           border-top-right-radius: 30px;
+           display: none;
+        }
+        .container4:hover .a4{
+            display:block;
+        }
+        .a5{
+            border: 2px solid black;
+            width:400px;
+            height:150px;
+            padding:30px;
+            margin:25px;
+            font-size: larger;
+           line-height:25px;
+           position: relative;
+           left:1000px;
+           top:-230px;
+           background-color: aqua;
+           box-shadow: 10px 5px 20px ;
+           border-bottom-left-radius: 30px;
+           border-top-right-radius: 30px;
+           display: none;
+        }
+        .container4:hover .a5{
+            display: block;
+        }
+        .top3{
+              font-size: 40px;
+            position: relative;
+            top:-30px;
+            left:660px;
+        }
+        .img5{
+            width:600px;
+            position: relative;
+            top:-5px;
+            left:460px;
+            border-radius: 50px;
+        }
+        .para5{
+            position: relative;
+           left:650px;
+           top:-545px;
+           font-size: 30px;
+           color:blue;   
+        }
+        .para6{
+           position: relative;
+           left:670px;
+           top:-475px;
+           font-size: 30px; 
+           color:brown;  
+        }
+        .para7{
+           position: relative;
+           left:670px;
+           top: -400px;
+           font-size: 30px; 
+        }
+        .para8{
+           position: relative;
+           left:690px;
+           top:-330px;
+           font-size: 30px; 
+           color:yellow;
+        }
+        .para9{
+           position: relative;
+           left:690px;
+           top:-255px;
+           font-size: 30px; 
+           color:blueviolet;
+        }
+        span{
+            color:brown;
+        }
+        @media screen and (max-width:800px) {
+            .top1{
+            left:320px;
+            font-size: 50px;
+        }
+        .top2{
+            font-size: 20px;
+            top:100px;
+            left:300px;
+        }
+        .img1{
+            width:500px;
+            position: relative;
+            left:150px;
+        }
+       .para1{
+           left:330px;
+           top:-120px;
+           font-size: 30px;  
+        }
+        .img2{
+             width:500px;
+            position: relative;
+            left:150px;
+        }
+        .img3{
+             width:500px;
+            position: relative;
+            left:150px;
+        }
+        .img4{
+             width:500px;
+            position: relative;
+           left:150px;
+        }
+          .para2{
+           left:330px;
+           top:-110px;
+           font-size: 30px;   
+        }
+        .para3{
+
+              left:360px;
+           top:-100px;
+           font-size: 30px; 
+        }
+         .para4{
+          
+            left:350px;
+           top:-130px;
+           font-size: 30px;   
+        }
+         .top3{
+              font-size: 20px;
+            position: relative;
+            top:-30px;
+            left:350px;
+        }
+        .img5{
+            width:400px;
+            position: relative;
+            top:-10px;
+            left:200px;
+            border-radius: 50px;
+        }
+        .para5{
+            position: relative;
+           left:320px;
+           top:-370px;
+           font-size: 23px;
+            
+        }
+        .para6{
+           position: relative;
+           left:330px;
+           top:-330px;
+           font-size: 23px;
+        }
+       
+          .para7{
+           position: relative;
+            left:320px;
+           top:-280px;
+           font-size: 23px;
+           
+        }
+        .para8{
+           position: relative;
+           left:350px;
+           top:-240px;
+           font-size: 23px;
+          
+        }
+        .para9{
+           left:350px;
+           top:-195px;
+           font-size: 23px;
+         
+        }
+        .a1{
+            width:180px;
+           left:500px;  
+            }
+            .a2{
+           left:500px;
+        }
+        .a21{   
+           left:200px;
+        }
+         .a3{
+           
+           left:500px;
+          
+        }
+         .a4{
+            height:190px;
+            padding:30px;
+            margin:30px;
+           left:500px;
+        }
+         .a5{
+            width:300px;
+            height:190px;
+            padding:30px;
+            margin:40px;
+           left:400px;
+        }
+        }
+       
+    </style>
+</head>
+<body>
+  
+    <h1 class="top1">SKILLS</h1><br>
+    <h2 class="top2">TECHNICAL SKILLS</h2>
+    <div class="team1">
+    <div class="container">
+    <img class="img1" src="pink.jpg">
+    <p class="para1">FullStack Technologies</p>
+    <div class="a1">
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Bootsrap</li>
+        <li>React js</li>
+        <li>Python</li>
+        <li>Django</li>
+    </ul>
+    </div>
+    </div>
+    <div class="container2">
+    <img class="img2" src="blue.jpg">
+    <p class="para2">Responsive Design</p>
+    <div class="a2">
+        <p>Building layouts that work on various devices</p>
+        </div>
+        <div class="a21">
+       <ul>
+        <li> <span>Survey Form  (HTML/CSS - FreeCodeCamp):</span>
+ Responsive survey form with semantic structure and multiple 
+ input fields.</li>
+        <li><span> Tribute Page  (HTML/CSS - FreeCodeCamp):</span>
+ Responsive webpage honoring Dr. A.P.J. Abdul Kalam with 
+ structured biography and images 
+ </li>
+        <li><span> Technical Documentation Page (HTML/CSS - FreeCodeCamp):</span> 
+ Multi-section responsive documentation page with fixed 
+ navigations.</li>
+       </ul>
+       </div>
+    
+    </div>
+    <div class="container3">
+    <img class="img3" src="green.jpg">
+    <p class="para3">Tools</p>
+    <div class="a3">
+        <ul>
+            <li>VS Code</li>
+            <li>GitHub</li>
+        </ul>
+    </div>
+    </div>
+    <div class="container4">
+    <img class="img4" src="pink.jpg">
+    <p class="para4">Projects</p>
+    <div class="a4">
+       <p>Built personal projects like a simple website or a portfolio to practice skills</p>
+    </div>
+    <div class="a5">
+        <p><span> Simple Quiz Game generator  (Python Mini Project) </span>
+ Random Questions :  Generate a set of questions with 
+ multiple-choice answers. </p>
+        </div>
+    </div>
+    </div>
+    
+    <h2 class="top3">SOFT SKILLS</h2>
+    <img class="img5" src="color.jpg">
+    <p class="para5">Time Management</p>
+    <p class="para6">Communication</p>
+    <p class="para7">Problem-Solving</p>
+    <p class="para8">Adaptability</p>
+    <p class="para9">Team Work</p>
+</main>
+</body>
+</html>

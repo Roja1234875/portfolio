@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        h1{text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color:rgb(228, 63, 63);
+            font-size: 60px;
+            letter-spacing: 2px;
+        }
+        .b1{
+           font-size: 25px;
+           color:chartreuse;
+           position: relative;
+           left:630px;
+           top:80px;
+           border: 5px solid wheat;
+           width:250px;
+           height:60px;
+           border-radius: 20px;
+           padding: 5px;
+           text-shadow: 1px 5px 5px black;
+           box-shadow: 1px 1px 40px 10px black;
+        }
+        .b2{
+           text-align: center;
+           position: relative;
+           left:27px;
+           top:80px;
+           font-style: italic;
+           font-size: 30px;
+           word-spacing: 3px;
+           line-height: 50px; 
+        }
+        h3{
+          color:orangered;
+        }
+        h4{
+            color: rgb(34, 32, 32);
+        }
+        .b3{
+            font-size: 25px;
+           color:chartreuse;
+           position: relative;
+           left:610px;
+           top:160px;
+           border: 5px solid wheat;
+           width:350px;
+           height:60px;
+           border-radius: 20px;
+           padding: 5px;
+            text-shadow: 1px 5px 5px black;
+           box-shadow: 1px 1px 40px 10px black;
+        }
+        .img1{
+            width:730px;
+             position: relative;
+           left:410px;
+           top:200px;
+        }
+        .para1{
+           position: relative;
+           left:580px;
+           top:-150px;
+           color:aqua; 
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           font-size: 30px;
+        }
+        .para2{
+            position: relative;
+           left:580px;
+           top:-90px;
+           color:aqua; 
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           font-size: 30px;
+        }
+        .b4{
+            font-size: 25px;
+           color:chartreuse;
+           position: relative;
+           left:570px;
+           top:150px;
+           border: 5px solid wheat;
+           width:430px;
+           height:60px;
+           border-radius: 20px;
+           padding: 5px;
+            text-shadow: 1px 5px 5px black;
+           box-shadow: 1px 1px 40px 10px black;
+        }
+        .img2{
+           width:730px;
+           position: relative;
+           left:410px;
+           top:160px;
+        }
+        .para3{
+             position: relative;
+           left:500px;
+           top:-320px;
+           padding:6px;
+           color:lightsalmon; 
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           font-size: 20px;
+           line-height: 38px;
+           animation-name: rose;
+           animation-duration: 5s;
+           animation-iteration-count: infinite;
+        }
+        @keyframes rose {
+            0%{ color:lightsalmon; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 20px;line-height: 38px;}
+            25%{color:rgb(104, 104, 227);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 20px;line-height: 38px;}
+            50%{color:yellow;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 20px;line-height: 38px;}
+            75%{color:rgb(155, 236, 155);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+            100%{color: rgb(233, 104, 104);font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        }
+        .img3{
+           width:730px;
+           position: relative;
+           left:410px;
+           top:-100px;
+        }
+        .content{
+           font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+           line-height: 55px;
+           position: relative;
+           left:480px;
+           top:-850px;
+           color:beige;
+           margin:10px;
+        }
+        span{
+            color:aqua;
+        }
+        .s1{
+            font-family:cursive;
+            color:burlywood;
+        }
+        footer{
+            background-color: grey;
+             position: relative;
+             top:-600px;
+             left:520px;
+         width:500px;
+         height:200px;
+         text-align: start;
+         padding: 2px;
+         border-radius: 15px;
+         box-shadow: 1px 10px 20px;
+        }
+        .u1{
+            text-align: center;
+            margin:20px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            line-height: 30px;  
+        }
+        .u1:hover{
+            color:blue;
+        }
+        @media screen and (max-width:800px){
+           h1{
+           position: relative;
+           left:45%;
+        } 
+        
+         .b2{
+           left:40%;
+           top:130px; 
+        }
+        .b3{
+            font-size: 25px;
+           color:chartreuse;
+           position: relative;
+           left:550px;
+           top:160px;
+           border: 5px solid wheat;
+           width:350px;
+           height:60px;
+           border-radius: 20px;
+           padding: 5px;
+            text-shadow: 1px 5px 5px black;
+           box-shadow: 1px 1px 40px 10px black;
+        }
+        .img1{
+            width:730px;
+             position: relative;
+           left:350px;
+           top:200px;
+        }
+        .b1{
+           font-size: 25px;
+           color:chartreuse;
+           position: relative;
+           left:600px;
+           top:80px;
+           border: 5px solid wheat;
+           width:250px;
+           height:60px;
+           border-radius: 20px;
+           padding: 5px;
+           text-shadow: 1px 5px 5px black;
+           box-shadow: 1px 1px 40px 10px black;
+    }
+    .para1{
+           position: relative;
+           left:500px; 
+        }
+        .para2{
+            position: relative;
+           left:500px; 
+        }
+        .b4{
+           
+           position: relative;
+           left:510px;
+        }
+        .img2{
+           left:360px;
+        }
+        .para3{
+            position: relative;
+           left:500px;
+        }
+        @keyframes rose {
+            0%{ color:lightsalmon; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 20px;line-height: 38px;}
+            25%{color:rgb(104, 104, 227);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 20px;line-height: 38px;}
+            75%{color:rgb(155, 236, 155);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+            100%{color: rgb(233, 104, 104);font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        }
+        .content{
+           position: relative;
+           left:425px;
+        }
+         .img3{
+           position: relative;
+           left:350px; 
+        }
+        footer{
+             left:470px;
+         padding: 3px;
+        }
+    }
+        @media screen and (max-width:450px) {
+            h1{
+           position: relative;
+           left:80%;
+        } 
+        .b1{
+           left:420px;
+        }
+        .b2{
+           left:80%;
+           top:100px;
+        }
+         .b3{
+           left:390px;
+        }
+        .img1{
+           left:210px;
+           top:200px;
+        }
+        .para1{
+           position: relative;
+           left:400px;
+           top:-130px;   
+        }
+        .para2{
+            position: relative;
+           left:400px;
+           top:-80px; 
+        }
+         .b4{
+           left:380px;
+        }
+        .img2{
+           width:1000px;
+           position: relative;
+           left:100px;
+        }
+        .para3{
+             position: relative;
+           left:400px;
+           top:-540px;
+           padding:1px;
+        }
+        @keyframes rose {
+            0%{ color:lightsalmon; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 20px;line-height: 38px;}
+            25%{color:rgb(104, 104, 227);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 20px;line-height: 38px;}
+        }
+        .img3{
+           width:730px;
+           position: relative;
+           left:210px;
+        }
+         .content{
+           line-height: 40px;
+           position: relative;
+           left:370px;
+           top:-970px;  
+        }
+         footer{
+             left:320px;
+             top:-800px;
+             padding: 3px;
+        }
+    }
+        
+        
+
+
+    </style>
+</head>
+<body>
+    <h1 >MY WORKS</h1>
+    <div  class="b1" >
+        <h2>EDUCATION</h2>
+    </div>
+    <div class="b2">
+    <h3 >SSS Arts ans Science and Management:</h3><h4>Walaja</h4>
+        <p>BSC - Computer Science-75.2% (2022-2025)</p>
+    <h3 >Government Girls Higher Secondary School:</h3> <h4>Arcot</h4>  
+        <p>HSC - 62.83% (2020-2022)</p>
+    <h3 >Government High School:</h3><h4>Sathur</h4>
+        <p>SSLC - 87% (2019-2020)</p>
+    </div>
+
+    <div class="b3">
+         <h2>CERTIFICATIONS</h2>
+    </div>
+    <img class="img1" src="by2.jpg">
+    <p class="para1">1. Python Full Stack Developer<br>(Login 360)</p>
+    <p class="para2">2. Basics of Python For Beginners<br>(Alison)</p>
+
+   <div class="b4">
+    <h2>ABOUT MY PROJECTS</h2>
+   </div>
+   <img class="img2" src="black.jpg">
+   <p class="para3">This portfolio showcases my work as a full stack developer,<br> highlighting my skills in building resposive, user-friendly <br>interfaces using HTML, CSS, JavaScript and backend for<br> Basics of Python(core python). The projects included<br> demonstrate my ability to transform designs into<br> interactive web experiences.</p>
+   
+   <img class="img3"src="by.jpg">
+
+   <div class="content">
+   <ul> 
+   <li><span>Simple Quiz Game generator:(Python mini Project)</span><br>
+    <span class="s1">Random Questions:</span>Generate a set of questions with<br> multiple-choice answers.</li>
+   <li> <span>Survey Form  (HTML/CSS - FreeCodeCamp):</span>
+ Responsive survey<br> form with semantic structure and multiple 
+ input fields.</li>
+        <li><span> Tribute Page  (HTML/CSS - FreeCodeCamp):</span>
+ Responsive webpage<br> honoring Dr. A.P.J. Abdul Kalam with 
+ structured biography <br>and images 
+ </li>
+        <li><span> Technical Documentation Page (HTML/CSS - FreeCodeCamp):</span> <br>
+ Multi-section responsive documentation page with fixed <br>
+ navigations.</li>
+ </div>
+ <footer>
+    <h2>Goals for this Portfolio:</h2>
+    <ul class="u1">
+        <li>To showcase my potential as a full stack developer.</li>
+        <li>To highlight my ability to create engaging, user-centric web and code experiences.</li>
+        <li>To demonstrate my learning journey in full stack development.</li>
+    </ul>
+ </footer>
+ </ul>
+</body>
+</html>
