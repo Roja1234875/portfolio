@@ -100,9 +100,9 @@ ul li a:hover{
 }
 .image{
     position: relative;
-    left:70%;
+    left:50%;
     top:-190px;
-    width:30%;
+    width:50%;
     height: 60%;
 }
 .image .rose{
