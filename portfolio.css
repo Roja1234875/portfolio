@@ -100,9 +100,9 @@ ul li a:hover{
 }
 .image{
     position: relative;
-    left:50%;
+    left:70%;
     top:-190px;
-    width:50%;
+    width:30%;
     height: 60%;
 }
 .image .rose{
@@ -191,6 +191,20 @@ ul li a:hover{
     font-size: 10px;
 }
 .image{margin-top:43%;
+    
+    position: relative;
+    left:35%;
+    top:-190px;
+    width:50%;
+    height: 60%;
+}
+.image .rose:hover{
+        width:200px;
+        height:220px;
+        padding:10px ;
+        position:relative;
+       left:-20%;
+        background-image:url("diamond.jpeg");
 }
 ul li a{
 
